@@ -23,15 +23,8 @@ canvas.defaultLineWidth = 1
 for x in stride(from: 0, to: 300, by: 25){
      canvas.drawEllipse(centreX: x, centreY: 0, width: 1, height: 1)
 }
-for x in stride(from: 0, to: 300, by: 50){
-        h=200
-        w=x
-    for y in stride(from: 0. to: 50, by 1){
-        h=h-1
-        w=w+1
-        canvas.drawLine(fromX: w, fromY: 0, toX: w, toY: h)
-    }
-}
+
+
 
 //draw the dots
 //canvas.drawEllipse(centreX: 0, centreY: 300, width: 1, height: 1)
