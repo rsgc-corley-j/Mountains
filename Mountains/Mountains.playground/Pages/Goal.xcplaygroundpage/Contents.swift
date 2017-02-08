@@ -20,12 +20,37 @@ let canvas = Canvas(width: 300, height: 300)
 // Draw some lines
 canvas.defaultLineWidth = 1
 
+    
+
 for x in stride(from: 0, to: 300, by: 25){
-     canvas.drawEllipse(centreX: x, centreY: 0, width: 1, height: 1)
+    for y in stride(from: 0, through: 300, by: 25){
+     canvas.drawEllipse(centreX: x, centreY: y, width: 1, height: 1)
 }
+}
+//bottom mountians
+canvas.fillColor = Color (hue: 10,saturation: 12, brightness: 12, alpha:12 )
 
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 150)
 
+//top mountians
 
+canvas.drawLine(fromX: -75, fromY: 75, toX: 25, toY: 175, lineWidth: 70)
+
+canvas.drawLine(fromX: 125, fromY: 75, toX: 225, toY: 175, lineWidth: 70)
+
+canvas.drawLine(fromX: 25, fromY: 75, toX: 125, toY: 175, lineWidth: 70)
+
+canvas.drawLine(fromX: 125, fromY: 75, toX: 225, toY: 175, lineWidth: 70)
+
+canvas.drawLine(fromX: 225, fromY: 75, toX: 325, toY: 175, lineWidth: 70)
+
+canvas.drawLine(fromX: 75, fromY: 75, toX: 150, toY: 150, lineWidth: 70)
+
+canvas.drawLine(fromX: 275, fromY: 75, toX: 350, toY: 150, lineWidth: 70)
+
+canvas.drawLine(fromX: 175, fromY: 75, toX: 250, toY: 150, lineWidth: 70)
+
+canvas.drawLine(fromX: -25, fromY: 75, toX: 50, toY: 150, lineWidth: 70)
 //draw the dots
 //canvas.drawEllipse(centreX: 0, centreY: 300, width: 1, height: 1)
 //canvas.drawEllipse(centreX: 25, centreY: 300, width: 1, height: 1)
