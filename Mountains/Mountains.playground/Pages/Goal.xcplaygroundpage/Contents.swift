@@ -34,25 +34,25 @@ canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 150)
 
 //top mountians
 
-canvas.lineColor = Color (hue: 0,saturation: 0, brightness: 70, alpha:100 )
+canvas.lineColor = Color (hue: 0,saturation: 0, brightness: 80, alpha:100 )
 
 canvas.drawLine(fromX: -75, fromY: 75, toX: 25, toY: 175, lineWidth: 70)
 
-canvas.drawLine(fromX: 125, fromY: 75, toX: 225, toY: 175, lineWidth: 70)
+canvas.drawLine(fromX: 150, fromY: 100, toX: 225, toY: 175, lineWidth: 70)
 
-canvas.drawLine(fromX: 25, fromY: 75, toX: 125, toY: 175, lineWidth: 70)
+canvas.drawLine(fromX: 50, fromY: 100, toX: 125, toY: 175, lineWidth: 70)
 
-canvas.drawLine(fromX: 125, fromY: 75, toX: 225, toY: 175, lineWidth: 70)
+canvas.drawLine(fromX: 150, fromY: 100, toX: 225, toY: 175, lineWidth: 70)
 
-canvas.drawLine(fromX: 225, fromY: 75, toX: 325, toY: 175, lineWidth: 70)
+canvas.drawLine(fromX: 250, fromY: 100, toX: 325, toY: 175, lineWidth: 70)
 
-canvas.drawLine(fromX: 75, fromY: 75, toX: 150, toY: 150, lineWidth: 70)
+canvas.drawLine(fromX: 100, fromY: 100, toX: 150, toY: 150, lineWidth: 70)
 
-canvas.drawLine(fromX: 275, fromY: 75, toX: 350, toY: 150, lineWidth: 70)
+canvas.drawLine(fromX: 300, fromY: 100, toX: 350, toY: 150, lineWidth: 70)
 
-canvas.drawLine(fromX: 175, fromY: 75, toX: 250, toY: 150, lineWidth: 70)
+canvas.drawLine(fromX: 200, fromY: 100, toX: 250, toY: 150, lineWidth: 70)
 
-canvas.drawLine(fromX: -25, fromY: 75, toX: 50, toY: 150, lineWidth: 70)
+canvas.drawLine(fromX: 0, fromY: 100, toX: 50, toY: 150, lineWidth: 70)
 //draw the dots
 //canvas.drawEllipse(centreX: 0, centreY: 300, width: 1, height: 1)
 //canvas.drawEllipse(centreX: 25, centreY: 300, width: 1, height: 1)
