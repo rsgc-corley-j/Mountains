@@ -28,11 +28,13 @@ for x in stride(from: 0, to: 300, by: 25){
 }
 }
 //bottom mountians
-canvas.fillColor = Color (hue: 10,saturation: 12, brightness: 12, alpha:12 )
+canvas.fillColor = Color (hue: 0,saturation: 0, brightness: 50, alpha:100 )
 
 canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 150)
 
 //top mountians
+
+canvas.lineColor = Color (hue: 0,saturation: 0, brightness: 70, alpha:100 )
 
 canvas.drawLine(fromX: -75, fromY: 75, toX: 25, toY: 175, lineWidth: 70)
 
